@@ -104,7 +104,7 @@ const Exploreslider = () => {
                   <img
                     src={box.image}
                     alt=""
-                    className="w-40  absolute top-[-10px] md:w-20"
+                    className="w-40  absolute top-[-10px] "
                   />
                   <h2 className="text-[white] text-[14px] font-bold mb-1 relative top-[50px]">
                     {box.name}
