@@ -100,7 +100,7 @@ const Exploreslider = () => {
               <div key={idx} className="px-2 py-8 max-lg:py-4 ">
                 {" "}
                 {/* gap maintain karne ke liye */}
-                <div className="flex flex-col justify-center items-center w-[180px] h-[180px] bg-[#1c1816] rounded-t-[50%] rounded-bl-[50%] relative hover:cursor-pointer hover:translate-y-[-20px] duration-[1s] mx-auto ">
+                <div className="flex flex-col justify-center items-center  w-[180px] h-[180px] bg-[#1c1816] rounded-t-[50%] rounded-bl-[50%] relative hover:cursor-pointer hover:translate-y-[-20px] duration-[1s] mx-auto ">
                   <img
                     src={box.image}
                     alt=""
