@@ -76,10 +76,10 @@ const settings = {
 };
   return (
     <>
-      <div className="w-[80%] mx-auto">
+      <div className="w-[80%] mx-auto mt-2">
         <div>
-          <h2 className="uppercase text-2xl font-bold">Explore Menu</h2>
-          <p className="w-[100px] h-[5px] bg-red-500"></p>
+          <h2 className="uppercase text-2xl font-bold max-md:text-lg">Explore Menu</h2>
+          <p className="w-[100px] h-[5px] bg-red-500 max-md:w-[80px] max-md:h-[3px]"></p>
         </div>
         <Slider {...settings} className="">
           {explore.map((box, idx) => (

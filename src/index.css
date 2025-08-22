@@ -6,15 +6,15 @@
   margin: 0;
   padding: 0 !important;
 }
-::-webkit-scrollbar {
+.my-scroll::-webkit-scrollbar {
   height: 6px;
 }
 
-::-webkit-scrollbar-thumb {
+.my-scroll::-webkit-scrollbar-thumb {
   background: #1c1816;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-track {
+.my-scroll::-webkit-scrollbar-track {
   background: transparent;
 }

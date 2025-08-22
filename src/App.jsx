@@ -6,7 +6,7 @@ import Exploreslider from "./Components/Home/Exploreslider";
 
 function App() {
   return (
-    < >
+    <>
     <div className="bg-[black] text-[white]">
       <Navbar />
       <Mainslider />
